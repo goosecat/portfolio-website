@@ -1,0 +1,317 @@
+
+body {
+font-family: 'Spectral', sans-serif;
+font-weight: 100;
+background-color: #EFEBE9;
+font-size: 20px;
+color: #172121;
+/***** text-transform: lowercase;not sure about the lowercase yet *****/
+}
+
+#about {
+  height: 600px;
+}
+
+ #work {
+  height: 1800px;
+}
+
+#contact{
+  height: 400px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+.portfolio-section {
+  height: 400px
+}
+
+.three-quarter-width {
+  width: 900px;
+  float: left;
+}
+
+.quarter-width {
+  width: 300px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+/*****
+header span {
+  font-size: 10px;
+commenting this out unless I decide to add an icon *****/
+
+header {
+  height: 700px;
+  padding: 50px;
+}
+
+ header h1 {
+   font-family: 'Oswald', sans-serif;
+   font-weight: 120;
+   font-size: 60px;
+   padding-left: 20px;
+   padding-top: 140px;
+   letter-spacing: 3px;
+  }
+
+ header h1 span {
+   font-weight: 120;
+   font-size: 60px;
+   letter-spacing: 3px;
+ }
+
+ header h2 {
+   font-family: 'Spectral', serif;
+   font-weight: 100;
+   font-size: 32px;
+   padding-left: 20px;
+ }
+
+ nav {
+  float: right;
+ }
+
+ nav ul li {
+   display: inline;
+ }
+
+ nav ul li a {
+   text-transform: uppercase;
+   margin-left: 15px;
+   font-family: 'Oswald', sans-serif;
+   color: #172121;
+   text-decoration: none;
+   letter-spacing: 3px;
+   font-size: 14px;
+   line-height: 40px;
+ }
+
+/***** ABOUT SECTION *****/
+
+#about {
+  background-color: #6E6362;
+  margin: 0 auto;
+}
+
+#about .full-width {
+  padding-top: 100px;
+  width: auto;
+}
+
+#about h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 56px;
+  text-align: center;
+  font-weight: 100;
+  margin: 0 auto;
+  letter-spacing: 3px;
+}
+
+#about h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+#about p {
+  font-size: 24px;
+  font-weight: 100;
+  text-align: center;
+}
+
+/***** WORK SECTION *****/
+
+#work {
+  color: #172121;
+  margin: 0 auto;
+
+}
+
+#work .full-width {
+  padding-top: 100px;
+}
+
+#work h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 56px;
+  text-align: center;
+  font-weight: 100;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  letter-spacing: 3px;
+}
+
+#work #jubilee-section {
+  height: 500px;
+  padding-bottom: 60px;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #DAD6D4;
+  border-top: 1px;
+  border-top-style: solid;
+  border-top-color: #DAD6D4;
+}
+
+#work #jubilee-section img {
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
+#work #jubilee-section h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 38px;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-right: 100px;
+}
+
+#work #jubilee-section p {
+  font-size: 24px;
+  font-weight: 100;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+#work #rogue-section {
+  height: 400px;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #DAD6D4;
+}
+
+#work #rogue-section img {
+  padding-left: 70px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
+#work #rogue-section h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 38px;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-right: 100px;
+}
+
+#work #rogue-section p {
+  font-size: 24px;
+  font-weight: 100;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+#work #holstee-section {
+  height: 500px;
+}
+
+#work #holstee-section img {
+  text-align: center;
+  padding-left: 180px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
+#work #holstee-section h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 38px;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-right: 100px;
+}
+
+#work #holstee-section p {
+  font-size: 24px;
+  font-weight: 100;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+/***** CONTACT SECTION *****/
+
+#contact {
+  background-color:#637074;
+  color: #363E40;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+#contact .full-width {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#contact h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 56px;
+  text-align: center;
+  font-weight: 100;
+  margin: 0 auto;
+  letter-spacing: 3px;
+  letter-spacing: 3px;
+}
+
+#contact h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 50px;
+  letter-spacing: 3px;
+}
+
+#contact p {
+  font-size: 24px:
+  line-height: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#contact span {
+  font-size: 50px;
+  color: #363E40;
+}
+
+/***** FOOTER *****/
+
+footer {
+  clear: both;
+  background-color: #637074;
+  text-align: center;
+  color: #363E40;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  font-size: 16px;
+  margin: 0 auto;
+}
